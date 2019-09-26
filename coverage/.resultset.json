@@ -2,6 +2,7 @@
   "RSpec": {
     "coverage": {
       "/home/clever-map-2803/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
+        null,
         1,
         null,
         null,
@@ -12,16 +13,15 @@
         null,
         null,
         null,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null
       ]
     },
-    "timestamp": 1569466403
+    "timestamp": 1569466442
   }
 }

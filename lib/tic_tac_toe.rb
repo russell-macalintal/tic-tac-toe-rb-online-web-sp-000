@@ -48,7 +48,7 @@ end
 
 def turn_count(board)
   token_array = board.any? {|token| token == "X" || token == "O"}
-  counter = token_array.length
+  counter = token_array.length()
 end
 
 def current_player(board)

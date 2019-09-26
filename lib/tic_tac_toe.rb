@@ -22,9 +22,13 @@ def input_to_index(input)
 end
 
 def move(board, index, token)
-
+  board[index] = !position_taken?(board) ? token
 end
 
-def position_taken(board)
+def position_taken?(board)
   !(board == " " || board == nil)
+end
+
+def valid_move?(board, index)
+  !position_taken?(board) && index.between?(0,8)
 end

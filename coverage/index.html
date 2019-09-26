@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-09-26T03:12:03+00:00">2019-09-26T03:12:03+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-09-26T03:13:24+00:00">2019-09-26T03:13:24+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.5
+         2.0
        </span>
     </span> hits/line)
   </h2>
@@ -57,7 +57,7 @@
         <td>15</td>
         <td>15</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>2.0</td>
       </tr>
       
     </tbody>
@@ -234,10 +234,10 @@
           <code class="ruby">def move(board, index, token)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="25">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="25">
+          <span class="hits">3</span>
           
-          <code class="ruby">  board[index] = valid_move?(board) ? token : board[index]</code>
+          <code class="ruby">  board[index] = valid_move?(board, index) ? token : board[index]</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="26">
@@ -258,8 +258,8 @@
           <code class="ruby">def position_taken?(board)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="29">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="29">
+          <span class="hits">4</span>
           
           <code class="ruby">  !(board == &quot; &quot; || board == nil)</code>
         </li>
@@ -282,8 +282,8 @@
           <code class="ruby">def valid_move?(board, index)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="33">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="33">
+          <span class="hits">4</span>
           
           <code class="ruby">  !position_taken?(board) &amp;&amp; index.between?(0,8)</code>
         </li>

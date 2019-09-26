@@ -71,3 +71,11 @@ end
 def draw?(board)
   full?(board) && !won?(board)
 end
+
+def over?(board)
+  won?(board) || draw?(board) || full?(draw)
+end
+
+def winner(board)
+  board[won?(board)[0]]
+end

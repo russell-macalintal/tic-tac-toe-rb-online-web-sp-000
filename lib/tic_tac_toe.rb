@@ -25,8 +25,8 @@ def move(board, index, token)
   board[index] = valid_move?(board, index) ? token : board[index]
 end
 
-def position_taken?(board)
-  !(board == " " || board == nil)
+def position_taken?(board, index)
+  !(board[index] == " " || board[index] == nil)
 end
 
 def valid_move?(board, index)

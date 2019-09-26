@@ -22,7 +22,7 @@ def input_to_index(input)
 end
 
 def move(board, index, token)
-  board[index] = valid_move?(board) ? token
+  board[index] = valid_move?(board) ? token :
 end
 
 def position_taken?(board)
